@@ -27,6 +27,8 @@ else
   fi
 fi
 unset syncFiles
+
+touch ~/.bash_profile
 source ~/.bash_profile
 
 function setupVimconf() {

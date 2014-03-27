@@ -11,6 +11,8 @@
 
 #   SHELL=$ZSH_PATH exec $ZSH_PATH --login
 # ($ZSH_PATH can be /usr/local/bin/zsh OR /usr/bin/zsh)
+# setopt NO_HUP
+# setopt NO_CHECK_JOBS
 
 curl -L github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
