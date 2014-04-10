@@ -37,3 +37,8 @@
 ehthumbs.db
 Thumbs.db
 Desktop.ini
+
+# IDE Related files  #
+######################
+*.sublime-project
+*.sublime-workspace
