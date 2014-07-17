@@ -36,10 +36,10 @@
     "noarg"         : true,     // Prohibit use of `arguments.caller` and `arguments.callee`.
     "noempty"       : true,     // Prohibit use of empty blocks.
     "nonew"         : true,     // Prohibit use of constructors for side-effects.
-    "plusplus"      : false,     // Prohibit use of `++` & `--`.
+    "plusplus"      : false,    // Prohibit use of `++` & `--`.
     "regexp"        : true,     // Prohibit `.` and `[^...]` in regular expressions.
     "undef"         : true,     // Require all non-global variables be declared before they are used.
-    "strict"        : false,     // Require `use strict` pragma in every file.
+    "strict"        : false,    // Require `use strict` pragma in every file.
     "trailing"      : true,     // Prohibit trailing whitespaces.
     
     // == Relaxing Options ================================================
@@ -63,7 +63,7 @@
     "laxbreak"      : false,    // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
     "laxcomma"      : false,    // Suppress warnings about comma-first coding style.
     "loopfunc"      : false,    // Allow functions to be defined within loops.
-    "multistr"      : true,    // Tolerate multi-line strings.
+    "multistr"      : true,     // Tolerate multi-line strings.
     "onecase"       : false,    // Tolerate switches with just one case.
     "proto"         : false,    // Tolerate __proto__ property. This property is deprecated.
     "regexdash"     : false,    // Tolerate unescaped last dash i.e. `[-...]`.
@@ -82,9 +82,9 @@
     
     "browser"       : true,     // Standard browser globals e.g. `window`, `document`.
     "couch"         : false,    // Enable globals exposed by CouchDB.
-    "devel"         : false,    // Allow development statements e.g. `console.log();`.
+    "devel"         : true,     // Allow development statements e.g. `console.log();`.
     "dojo"          : false,    // Enable globals exposed by Dojo Toolkit.
-    "jquery"        : true,    // Enable globals exposed by jQuery JavaScript library.
+    "jquery"        : true,     // Enable globals exposed by jQuery JavaScript library.
     "mootools"      : false,    // Enable globals exposed by MooTools JavaScript framework.
     "node"          : false,    // Enable globals available when code is running inside of the NodeJS runtime environment.
     "nonstandard"   : false,    // Define non-standard but widely adopted globals such as escape and unescape.
@@ -111,9 +111,10 @@
  
     "maxerr"        : 100,      // Maximum errors before stopping.
     "predef"        : [         // Extra globals.
-        //"exampleVar",
-        //"anotherCoolGlobal",
-        //"iLoveDouglas"
+      // underscore
+      "_",
+      // d3
+      "d3"
     ],
     "indent"        : 4         // Specify indentation spacing
 }
