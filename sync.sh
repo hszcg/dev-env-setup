@@ -7,6 +7,7 @@ function syncFiles() {
   ".gitconfig"
   ".gitignore"
   ".jshintrc"
+  ".zshrc"
   )
   sync_cmd=""
   for f in "${sync_files[@]}"
