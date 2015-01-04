@@ -30,9 +30,6 @@ else
 fi
 unset syncFiles
 
-touch ~/.bash_profile
-source ~/.bash_profile
-
 function setupVimconf() {
   rm -rf ~/.vim  ~/.vimrc
   git clone https://github.com/hszcg/vimconf.git ~/.vim
@@ -54,3 +51,5 @@ else
 fi
 unset setupVimconf
 
+touch ~/.bash_profile
+source ~/.bash_profile
