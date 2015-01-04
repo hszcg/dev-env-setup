@@ -33,5 +33,5 @@ sh install-zsh.sh
 * sync other files
 
 ```
-sh sync.sh
+./sync.sh
 ```
