@@ -1,4 +1,4 @@
-dev-env-setup
+Dev ENV Setup
 =============
 
 Setup dev env from scratch
