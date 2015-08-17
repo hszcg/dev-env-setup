@@ -7,6 +7,7 @@ function syncFiles() {
   ".gitconfig"
   ".gitignore"
   ".jshintrc"
+  ".eslintrc"
   ".zshrc"
   )
   sync_cmd=""
