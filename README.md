@@ -8,7 +8,10 @@ Includes [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [powerlevel10k 
 
 # Get Started
 
-## Install zsh first
+## Prerequisites
+
+- A Unix-like operating system: macOS, Linux, BSD. On Windows: WSL2 is preferred.
+- [Zsh](https://www.zsh.org) should be installed (v4.3.9 or more recent is fine but we prefer 5.0.8 and newer). If not pre-installed (run `zsh --version` to confirm), check the following wiki instructions here.
 
 For Mac OSX
 ```
@@ -20,12 +23,8 @@ For Ubuntu
 sudo apt-get install zsh
 ```
 
-If default $SHELL is not changed to zsh
-add the following line to .bash_profile
-```
-SHELL=$ZSH_PATH exec $ZSH_PATH --login
-# ($ZSH_PATH can be /usr/local/bin/zsh OR /usr/bin/zsh)
-```
+- `curl` or `wget` should be installed.
+- `git` should be installed (recommended v2.4.11 or higher). [git-extras](https://github.com/tj/git-extras/blob/master/Installation.md) is optional but highly recommended.
 
 ## Install oh-my-zsh and `powerlevel10k` theme 
 
