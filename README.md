@@ -16,11 +16,12 @@ Includes [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [powerlevel10k 
 For Mac OSX
 ```
 brew install zsh
+brew install openssh
 ```
 
 For Ubuntu
 ```
-sudo apt-get install zsh
+sudo apt-get install zsh openssh
 ```
 
 - `curl` or `wget` should be installed.
